@@ -7,12 +7,19 @@ Pick a restaurant!
 
 ## Installation
 
+### via Python
 ```
 virtualenv --system-site-packages .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 python alexa-restaurant.py
 ```
+
+### via Docker
+```
+docker run -d -p 8000:8000 pstauffer/alexa-restaurant
+```
+
 
 ## Configuration
 
