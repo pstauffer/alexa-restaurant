@@ -1,0 +1,19 @@
+---
+bye_msg: Okay schade... bye
+
+welcome_msg: Hallo Raiffeisen, soll ich euch sagen, wohin wir essen gehen?
+
+start_msg: Restaurant picker läuft
+
+answer_msg: Wir gehen
+
+restaurants:
+  - in den Schwanen
+  - ins Armenhaus
+  - ins Tschiardino
+  - zum Gas-Heini
+  - über die Gasse
+  - zur Taverna
+  - ins Tschentile
+  - zum Bierfalken
+  - zum Veccia Posta
