@@ -5,7 +5,7 @@ MAINTAINER pstauffer@confirm.ch
 ADD . /app
 
 RUN apk update && \
-    apk add py2-openssl py2-pip ca-certificates && \
+    apk add py2-openssl py2-pip ca-certificates pcre-dev && \
     apk add --no-cache --virtual=temporary curl gcc musl-dev linux-headers python-dev && \    
     curl "https://bootstrap.pypa.io/get-pip.py" | python && \
     pip install uwsgi && \
